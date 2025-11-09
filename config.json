@@ -1,0 +1,35 @@
+{
+  "delay": {                      
+    "ask_in_ui": false,           
+    "enabled": false,       
+    "min": 2,                     
+    "max": 4                      
+  },
+  "proxy": {
+    "enabled": true,      
+    "mode": "rotating"    
+  },
+  "captcha": {                    
+    "service": "24captcha",       
+    "api_key": "",                
+    "timeout": 60,
+    "enabled": true              
+  },
+  "join": {
+    "token_filling": false,
+    "bypass_rules": true,         
+    "bypass_onboarding": true,    
+    "bypass_restorecord": false,   
+    "timeout": 20
+  },
+  "appearance": { 
+    "ask_in_ui": true,           
+    "nickname_enabled": false,    
+    "nickname": "Member {random}" 
+  },
+  "vc_joiner": {
+    "mute": true,
+    "deaf": false,
+    "random": true
+  }
+}

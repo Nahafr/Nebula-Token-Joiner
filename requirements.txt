@@ -1,0 +1,9 @@
+curl-cffi
+requests
+colorama
+websocket-client
+orjson
+keyboard
+bs4
+typing_extensions
+cloudscraper
